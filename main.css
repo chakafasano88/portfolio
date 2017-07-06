@@ -14,6 +14,10 @@ body {
   text-align: center;
 }
 
+.fa {
+  color: black;
+}
+
 /* First flex container with image */
 .landing-filter {
   display: flex;
