@@ -23,7 +23,7 @@ body {
 .landing-div {
   height: 750px;
   position: relative;
-  background-image: url('images/Portfoliophoto.JPG');
+  background-image: url('images/portfoliophoto.JPG');
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #F4F4F9;
