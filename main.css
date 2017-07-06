@@ -73,6 +73,11 @@ body {
 .about-text-container {
   text-align: center;
   height: 300px;
+  /*border: 1px solid red;*/
+  width: 55%;
+  margin-left: 22.5%;
+  margin-right: 22.5%;
+
 }
 
 .name-flex-container {
