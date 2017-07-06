@@ -11,6 +11,7 @@
   </head>
 
   <body>
+    <!-- First div with photo, and name -->
     <div class="landing-filter">
       <div class="border landing-div"></div>
       <div class="landing-container">
@@ -21,6 +22,7 @@
         <p class="my-description"> Full Stack Web Developer</p>
       </div>
     </div>
+    <!-- About me div with description of myself -->
     <div class="about-me">
       <p id="section-titles" class="about-me-header" >About Me</p>
       <br>
@@ -37,15 +39,37 @@
         <p>Please browse my projects below!</p>
       </div>
     </div>
+    <!-- My projects div with videos and descriptions -->
     <div class="border my-works-div">
+      <!-- "My Works" container -->
       <div class="my-works-text-container">
         <p id="section-titles">My Works</p>
       </div>
+      <!-- Ensemble Video -->
       <video controls="controls" onclick="this.play()" id="ensemble-vid" src="videos/ensemble_screen_recording.mov">
       </video>
+      <!-- Urban Snooze Video -->
       <video height="auto" controls="controls" onclick="this.play()" id="urban-snooze-vid" src="videos/urban_snooze_screen_recording.mov" >
       </video>
-    </div>
+      <div class="videos-flex-container">
+        <!-- Ensembledescription text -->
+        <div class="video-description-text ensemble-description">
+          <p>An application for users to login, and interact with other musicians via live audio and video streaming!
+          <br>
+          <br>
+          <p> Built with: JS, HTML, CSS, Rails, Kandy API. </p>
+          <br>
+          <p>Demo Logins: User1: Matt User2: Mark</p>
+          <p> Demo passwords: User1: cheese123, User2: cheese12345 (these two users will call eachother as a demonstration)</p>
+        </div>
+        <!-- Urban Snooze description text -->
+        <div class="video-description-text urban-snooze-description">
+          <p>An application for users to login, create a naptime, and go to sleep!</p>
+          <br>
+          <p> Built with: JS, HTML, CSS, Ruby, Rails, Google API. </p>
+        </div>
+      </div>
+    <!-- Contact me div with links to various sites -->
     <div class="border contact-div">
       <p id="section-titles">Contact Me</p>
       <br>
@@ -55,8 +79,9 @@
       <div class="contact-text">
         <p>Shoot me an email, contact me on linkedin, view my github, or browse my musician webpage.</p>
         <br>
-        <p>I look forward to collobarating with you!</p>
+        <p>I look forward to collaborating with you!</p>
       </div>
+      <!-- All icons, Github, Linkedin, my music website -->
       <div class="icon-flex">
         <a href="https://github.com/chakafasano88"><i class="fa fa-git-square" aria-hidden="true"></i></a>
         <a href="https://www.linkedin.com/in/matt-fasano/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
