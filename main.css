@@ -69,7 +69,6 @@ body {
 
 }
 
-
 .about-text-container {
   text-align: center;
   height: 300px;
@@ -229,4 +228,13 @@ body {
 .email {
   font-family: 'Questrial';
   font-size: 1.7em;
+}
+
+#links-to-website {
+  font-family: 'Questrial';
+
+}
+
+a:hover {
+  color: purple;
 }
