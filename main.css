@@ -198,6 +198,8 @@ body {
   background-color: #FF8360;
   text-align: center;
   padding-top: 50px;
+  border-top: 8px solid #EEF5DB;
+
 }
 
 .contact-text {
