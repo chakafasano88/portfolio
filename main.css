@@ -237,6 +237,12 @@ body {
 
 }
 
+#resume-link {
+  font-family: 'Questrial';
+  font-size: 1.3em;
+  color: rgb(62,0,124);
+}
+
 a:hover {
   color: purple;
 }
