@@ -100,10 +100,17 @@ body {
   text-decoration-color: #FF8360;
 }
 
+.description-container {
+  margin-top: 120px;
+}
+
 .my-description {
   font-family: 'Questrial';
   font-size: 5.5em;
-  margin-top: 120px;
+  text-align: left;
+  text-decoration: underline;
+  text-decoration-color: #FF8360;
+  text-underline-position: under;
 }
 
 
