@@ -128,29 +128,53 @@ body {
 }
 /* BLOCK #3 */
 .my-works-div {
-  height: 850px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 50%;
   background-color: #dcdcf5;
-  padding-top: 50px;
   border-bottom: 1px solid grey;
 }
 
-.my-works-text-container {
-  text-align: center;
-  height: 50px;
-  width: 100%;
-  margin-bottom: 60px;
-
-}
-
-.videos-flex-container {
-  width: 100%;
+.parent-ensemble-flex {
   display: flex;
-  padding-bottom: 30px;
+  justify-content: center;
+  flex-direction: row-reverse;
+  font-family: 'Questrial';
 }
 
-.urban-snooze-description {
-  width: 40%;
-  text-align: justify;
+.ensemble-description-container {
+  display: flex;
+  justify-content: center;
+  margin: 30px 30px 0px 30px;
+  width: 50%;
+}
+
+.sizing-container {
+  border: 1px solid red;
+  width: 70%;
+}
+
+.title-container {
+  margin-bottom: 30px;
+  font-size: 1.2em;
+}
+
+.title {
+  margin-bottom: 10px
+}
+
+#tite-paragraph {
+  font-size: 4em;
+
+}
+
+.parent-urban-snooze-flex {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: center;
 
 }
 
@@ -159,23 +183,17 @@ body {
   font-size: 1.1em;
 }
 
-.ensemble-description {
+.urban-snooze-description {
   width: 40%;
   text-align: justify;
-  margin-right: 7%;
-  margin-left: 7%;
-
+  padding: 0px 50px 0px 0px;
 }
 
 /* Ensemble video */
 #ensemble-vid {
   width: 45%;
-  margin-right: 2%;
   margin-bottom: 30px;
   height: 420px;
-  position: relative;
-  top: 15px;
-
 }
 /* Urban Snooze video */
 #urban-snooze-vid {

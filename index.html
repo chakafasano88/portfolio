@@ -15,7 +15,7 @@
     <div class="block1-container">
       <div class="name-container">
         <div class="name-flex">
-          <p class="my-first-name">Matt</p>
+          <p  class="my-first-name">Matt</p>
           <p class="my-last-name">Fasano</p>
         </div>
         <div class="title-flex">
@@ -38,48 +38,61 @@
         <p>Browse my projects below!</p>
       </div>
     </div>
-    <!-- My projects div with videos and descriptions -->
-    <div class="border my-works-div">
-      <!-- "My Works" container -->
-      <div class="my-works-text-container">
-        <p id="section-titles">My Works</p>
-      </div>
-      <!-- Ensemble Video -->
-      <video controls="controls" onclick="this.play()" id="ensemble-vid" src="videos/ensemble_screen_recording.mov">
-      </video>
-      <!-- Urban Snooze Video -->
-      <video height="auto" controls="controls" onclick="this.play()" id="urban-snooze-vid" src="videos/urban_snooze_screen_recording.mov" >
-      </video>
-      <div class="videos-flex-container">
-        <!-- Ensembledescription text -->
-        <div class="video-description-text ensemble-description">
-          <p>An application for users to login, and interact with other musicians via live audio and video streaming!
-          <br>
-          <br>
-          <p> Built with: JS, HTML, CSS, Rails, Kandy API. </p>
-          <br>
-          <p>Demo Logins: User1: Matt User2: Mark</p>
-          <br>
-          <p> Demo passwords: User1: cheese123, User2: cheese12345 (these two users will call eachother as a demonstration)</p>
-          <br>
-          <a id="links-to-website" href="https://github.com/chakafasano88/urbansnooze">View my code on GitHub</a>
-          <br>
-          <br>
-          <a id="links-to-website" href="https://fast-atoll-86925.herokuapp.com/">Go to the website</a>
-        </div>
-        <!-- Urban Snooze description text -->
-        <div class="video-description-text urban-snooze-description">
-          <p>An application for users to login, create a naptime, and go to sleep!</p>
-          <br>
-          <p> Built with: JS, HTML, CSS, Ruby, Rails, Google API. </p>
-          <br>
-          <a id="links-to-website" href="https://github.com/chakafasano88/chatmusic">View my code on GitHub</a>
-          <br>
-          <br>
-          <a id="links-to-website" href="https://ensemblemusic.herokuapp.com/">Go to the website</a>
+    <!-- ============== MY WORKS BLOCK ================= -->
+    <div class="my-works-div">
+      <p id="section-titles">My Works</p>
+
+      <!-- "ENSEBMLE"  FLEX CONTAINER -->
+      <div class="parent-ensemble-flex" >
+        <!-- ENSEMBLE VIDEO -->
+        <video controls="controls" onclick="this.play()" id="ensemble-vid" src="videos/ensemble_screen_recording.mov">
+        </video>
+        <!-- ENSEMBLE DESCRIPTION-->
+        <div style="border: 1px solid red;" class="ensemble-description-container">
+          <div class="sizing-container">
+            <div class="title-container">
+              <h1 class="title" >Ensemble</h1>
+              <p id="title-paragraph"> Built with: JS, HTML, CSS, Rails, Kandy API. </p>
+            </div>
+            <p>An application for users to login, and interact with other musicians via live audio and video streaming!
+            <br>
+            <br>
+            <p>Demo Logins:</p>
+            <p>User1: Matt</p>
+            <p>User2: Mark</p>
+            <br>
+            <p> Demo passwords</p>
+            <p>User1: cheese123</p>
+            <p>User2: cheese12345</p>
+            <br>
+            <a id="links-to-website" href="https://github.com/chakafasano88/urbansnooze">View my code on GitHub</a>
+            <br>
+            <br>
+            <a id="links-to-website" href="https://fast-atoll-86925.herokuapp.com/">Go to the website</a>
+          </div>
         </div>
       </div>
-    <!-- Contact me div with links to various sites -->
+      <!-- "URBAN SNOOZE" FLEX CONTAINER -->
+      <div style="border: 1px solid red;" class="parent-urban-snooze-flex">
+        <!-- "URBAN SNOOZE" VIDEO-->
+        <video height="auto" controls="controls" onclick="this.play()" id="urban-snooze-vid" src="videos/urban_snooze_screen_recording.mov" >
+        </video>
+        <div class=" " >
+          <!-- "URBAN SNOOZE" DESCRIPTION -->
+          <div style="border: 1px solid red;" class="video-description-text urban-snooze-description">
+            <p>An application for users to login, create a naptime, and go to sleep!</p>
+            <br>
+            <p> Built with: JS, HTML, CSS, Ruby, Rails, Google API. </p>
+            <br>
+            <a id="links-to-website" href="https://github.com/chakafasano88/chatmusic">View my code on GitHub</a>
+            <br>
+            <br>
+            <a id="links-to-website" href="https://ensemblemusic.herokuapp.com/">Go to the website</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- CONTACT ME BLOCK -->
     <div class="border contact-div">
       <p id="section-titles">Contact Me</p>
       <br>
