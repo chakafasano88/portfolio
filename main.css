@@ -15,15 +15,10 @@ body {
   text-align: center;
 }
 
-.fa {
-  color: black;
-}
-
 /* BLOCK #1*/
 .block1-container {
   display: flex;
   justify-content: center;
-  padding: 30px 30px 30px 30px;
 }
 
 /* Container with name and title */
@@ -31,12 +26,9 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 350px;
+  align-items: center;
+  height: 650px;
   background-color: #FFFF;
-  width: 50%;
-  margin-left: 25%;
-  margin-right: 25%;
-
 }
 
 /* Flex box for name */
@@ -96,7 +88,7 @@ body {
   word-wrap: break-word;
   text-align: center;
   background-color: #f5e9dc;
-  padding-top: 50px;
+  padding-top: 20px;
   border-bottom: 1px solid grey;
   font-family: 'Questrial';
   font-size: 20px;
@@ -118,42 +110,30 @@ body {
 
 }
 
-#section-titles {
-  font-family: 'Hammersmith One', monospace;
-  font-size: 2.5em;
-  position: relative;
-  top: 15px;
-  color: #222;
-
-}
-/* BLOCK #3 */
+/* "MY WORKS" BLOCK #3 */
 .my-works-div {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 50%;
+  height: 60%;
+  padding: 20px;
   background-color: #dcdcf5;
   border-bottom: 1px solid grey;
+  font-family: 'Questrial';
 }
 
 .parent-ensemble-flex {
   display: flex;
   justify-content: center;
   flex-direction: row-reverse;
-  font-family: 'Questrial';
-}
-
-.ensemble-description-container {
-  display: flex;
-  justify-content: center;
-  margin: 30px 30px 0px 30px;
-  width: 50%;
+  align-items: center;
+  width: 90%;
 }
 
 .sizing-container {
-  border: 1px solid red;
-  width: 70%;
+  width: 51%;
+  padding: 25px;
 }
 
 .title-container {
@@ -161,7 +141,7 @@ body {
   font-size: 1.2em;
 }
 
-.title {
+#title {
   margin-bottom: 10px
 }
 
@@ -172,45 +152,45 @@ body {
 
 .parent-urban-snooze-flex {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: row-reverse;
   justify-content: center;
-
+  border-top: 1px solid grey;
+  width: 90%;
+  margin-bottom: 30px;
 }
 
-.video-description-text {
-  font-family: 'Questrial';
-  font-size: 1.1em;
-}
+.urban-snooze-description-container {
+  width: 100%;
+  height: 330px;
+  padding: 25px;
 
-.urban-snooze-description {
-  width: 40%;
-  text-align: justify;
-  padding: 0px 50px 0px 0px;
 }
 
 /* Ensemble video */
 #ensemble-vid {
   width: 45%;
-  margin-bottom: 30px;
-  height: 420px;
+  height: 380px;
+  position: relative;
+  bottom: 25px;
 }
+
 /* Urban Snooze video */
 #urban-snooze-vid {
   width: 45%;
-  height: 420px;
+  height: 380px;
   position: relative;
-  top: 15px;
-  margin-bottom: 30px;
+  bottom: 4px;
 }
 
-/* BLOCK #4 */
+/*  "CONTACT ME" BLOCK #4 */
 .contact-div{
   height: 400px;
   background-color: #f5dcdc;
-  text-align: center;
-  padding-top: 50px;
+  padding-top: 20px;
   border-top: 1px solid grey;
+  display: flex;
+  flex-direction: column;
 
 }
 
@@ -218,44 +198,94 @@ body {
   font-family: 'Questrial';
   font-size: 20px;
 }
+
 /* Styling for all div titles */
 #section-titles {
+  font-family: 'Hammersmith One', monospace;
   margin: 0px;
   font-size: 3.4em;
-  margin-bottom: 40px;
   color: #444444;
 }
-/* margins used to space icons neatly */
-.fa-linkedin {
-  margin-left: 30px;
-  margin-right: 30px;
-}
-/* icon flex box */
-.icon-flex {
+
+.icon-container {
+  color: grey;
+  font-size: 1.2em;
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  font-size: 3em;
   position: relative;
-  top: 30px;
-  margin-bottom: 50px;
+  padding: 20px 20px 20px 20px;
 }
+
+.buttons {
+  background-color: #cd5252;
+  border: grey;
+  border-radius: 25px;
+  padding: 10px 10px 10px 10px;
+  height: 20px;
+  width: 20px;
+  margin-left: 5px;
+  text-align: center;
+}
+
+i {
+  background-color: inherit;
+  color: #444444;
+}
+
+.fa {
+  color: #f5dcdc;
+}
+
 /* my email */
 .email {
   font-family: 'Questrial';
   font-size: 1.7em;
 }
 
+.link-container {
+  width: 40%;
+  padding: 20px 0px;
+  margin-bottom: 30px;
+}
+
 #links-to-website {
   font-family: 'Questrial';
-
+  border: 2px solid #7979d9;
+  padding: 10px 25px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 1em;
+  text-decoration: none;
 }
 
-#resume-link {
+
+.resume-container {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#link-to-resume {
   font-family: 'Questrial';
-  font-size: 1.1em;
-  color: rgb(62,0,124);
+  border: 2px solid #d97878;
+  padding: 10px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 1em;
+  text-decoration: none;
 }
 
-a:hover {
-  color: purple;
+a {
+  color: #444444;
+}
+
+a#links-to-website:hover {
+  background-color: rgba(251,251,240, .7);
+  color: #7979d9;
+}
+
+a#link-to-resume:hover {
+  color: #ce5050;
+  background-color: rgba(251,251,240, .7);
 }
