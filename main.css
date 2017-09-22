@@ -289,3 +289,10 @@ a#link-to-resume:hover {
   color: #ce5050;
   background-color: rgba(251,251,240, .7);
 }
+
+
+@media screen and (max-width: 776px) {
+  * {
+    display: block;
+  }
+}
