@@ -15,7 +15,7 @@
     <div class="block1-container">
       <div class="name-container">
         <div class="name-flex">
-          <p  class="my-first-name">Matt</p>
+          <p id="animate-area" class="my-first-name">Matt</p>
           <p class="my-last-name">Fasano</p>
         </div>
         <div class="title-flex">
@@ -29,8 +29,6 @@
       <p id="section-titles" class="about-me-header" >About Me</p>
       <div class="about-text-container">
         <p>I am a web developer with a background in music.</p>
-        <br>
-        <p>After pursuing a professional career as a performing musician in NYC, I was inspired by my peer's abilities to create stunning interactive webpages using JavaScript. I am motivated to master JavaScript as a front-end web developer, and strive to perfect design. </p>
         <br>
         <p> Being a creative and a performer, I've always had a passion for entertaining and improving the lives of others. I hope to be working in lifestlyle and entertainment as a creative coder.</p>
         <br>
@@ -57,11 +55,13 @@
           <p style="width: 60%;">An application for users to login, and interact with other musicians via live audio and video streaming
           <br>
           <br>
-          <p style="margin: 5px 5px 5px 0px;">Demo Logins:</p>
+          <p>Demo Logins:</p>
+          <br>
           <p>User1: Matt</p>
           <p>User2: Mark</p>
           <br>
-          <p style="margin: 5px 5px 5px 0px;"> Demo passwords:</p>
+          <p> Demo passwords:</p>
+          <br>
           <p>User1: cheese123</p>
           <p>User2: cheese12345</p>
           <br>
@@ -73,7 +73,7 @@
         </div>
       </div>
       <!-- "URBAN SNOOZE" FLEX CONTAINER -->
-      <div class="parent-urban-snooze-flex">
+      <div class="parent-urban-snooze-container">
         <!-- "URBAN SNOOZE" VIDEO-->
         <video height="auto" controls="controls" onclick="this.play()" id="urban-snooze-vid" src="videos/urban_snooze_screen_recording.mov" >
         </video>
@@ -81,17 +81,39 @@
         <div class="urban-snooze-description-container " >
           <div class="title-container">
             <h1 id="title" >Urban Snooze</h1>
-            <p> Built with: JS, HTML, CSS, Ruby, Rails, Google API </p>
+            <p> Built with: JS, HTML(5), CSS(3), Ruby, Rails, Google API </p>
           </div>
           <!-- "URBAN SNOOZE" DESCRIPTION -->
-          <div class="video-description-text urban-snooze-description">
-            <p>An application for users to login, create a naptime appointment.</p>
+            <p>An application for users to login and create a naptime appointment.</p>
+            <br>
+            <br>
+            <p>Demo Login:</p>
+            <br>
+            <p>username: test@gmail.com</p>
+            <p>password: testing123</p>
+            <br>
             <br>
             <br>
             <br>
             <a id="links-to-website" target="_blank" href="https://fast-atoll-86925.herokuapp.com/">Visit Website</a>
-          </div>
         </div>
+      </div>
+      <div class="uncommon-parent-container">
+        <div class="parent-description">
+          <div class="title-container">
+            <h1 id="title">Uncommon Goods</h1>
+            <p>Built with: HTML(5), CSS(3)</p>
+          </div>
+            <p style="width: 60%">Responsive demo website design after Uncommon Goods webpage. </p>
+            <br>
+            <br>
+            <div class="link-container">
+              <a id="links-to-website" target="_blank" href="https://chakafasano88.github.io/bounceX.github.io/">Visit Website</a>
+            </div>
+        </div>
+          <div class="image-container">
+            <a href="https://chakafasano88.github.io/bounceX.github.io/"><img id="uncommon-image" src="images/uncommongoods.png" alt=""></a>
+          </div>
       </div>
     </div>
 
@@ -110,13 +132,13 @@
         <div class="action-flex">
           <div class="icon-container">
             <div class="buttons">
-              <a id="back"><i class="fa fa-github" aria-hidden="true"></i></a>
+              <a href="https://github.com/chakafasano88?tab=repositories" id="back"><i class="fa fa-github" aria-hidden="true"></i></a>
             </div>
             <div class="buttons">
-              <a id="play"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+              <a href="https://www.linkedin.com/in/matt-fasano/" id="play"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
             </div>
             <div class="buttons">
-              <a id="pause"><i class="fa fa-music" aria-hidden="true"></i></a>
+              <a href="http://www.thechaka.com/" id="pause"><i class="fa fa-music" aria-hidden="true"></i></a>
             </div>
           </div>
         </div>
