@@ -136,7 +136,7 @@ body {
 }
 
 .sizing-container {
-  width: 51%;
+  width: 56%;
   padding: 25px;
 }
 
@@ -176,6 +176,7 @@ body {
   height: 380px;
   position: relative;
   bottom: 25px;
+  right: 40px;
 }
 
 /* Urban Snooze video */
