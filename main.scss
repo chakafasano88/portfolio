@@ -1,26 +1,28 @@
+@font-face {
+    font-family:  'Product Sans';
+    src: url('./fonts/ProductSans-Regular.woff2')
+}
+
 // variables
 $row-padding: 50px;
 $header-padding-top-bottom: 50px 0;
 $header-padding-top: 50px 0 0 0;
-$main-bg-blue: #98c1d9;
-$text-decoration-coral: #f58549;
+$main-bg-blue: #acacff;
+$text-decoration-coral: #acacff;
 
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial;
-
-}
-
-.main {
-    background: linear-gradient(to bottom left, white 50%, lightblue 50%); 
+    font-family: 'Product Sans', Arial;
+    background-color: #ddddff
 }
 
 .title {
-    height: 64vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: white;
 
     h1 {
         font-size: 80px;
@@ -40,36 +42,90 @@ body {
 }
 
 .about__wrapper {
-    background-color: #e0fbfc !important; 
+    background-color: #acacff
+    !important; 
+    height: 50vh;
     .about__body { 
         padding: $row-padding; 
-        h1 { padding-bottom: 30px; } 
+        h1 { 
+            padding-bottom: 30px; 
+            color: white;
+        } 
+          
+        p {
+            width: 75%;
+            margin: 30px auto 0 auto;
+            color: white;
+        }
     }
-   
+}
+
+.skills {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    top: -100px;
+    max-width: 1100px;
+    background: #fdfdfd none repeat scroll 0% 0%;
+    box-shadow: rgba(12, 52, 75, 0.05) 0px 3px 3px;
+    border-radius: 8px;
+    opacity: 1;
+    pointer-events: all;
+
     p {
-        width: 75%;
-        margin: 0 auto;
+        color: black;
     }
 
-    .skills {
-        position: relative;
-        border: 1px solid red;
-        margin: 0 auto;
-        width: 100%;
-        top: 15%;
-        max-width: 1200px;
+    .icon {
+        font-size: 30px;
+        box-shadow: rgba(5, 5, 5, 0.05) 8px 8px 8px;
+        padding: 20px;
+        background-color: white;
+        border-radius: 50%;
+
+        i {
+            color: rgb(154, 93, 252);
+        }
+    }
+
+    .skills__column {
+        border-right: 1px solid #E6ECF8;
+        padding: 0 60px;
+
+    }
+
+    .skill__description {
+        padding: 50px 0 0 0;
+
+        label {
+            font-weight: bold; 
+            font-size: 1.1em;
+        }
+    }
+
+    .tools-list {
+        margin-top: 50px;
+        ul {
+            margin-right: 35px;
+            li {
+                list-style: none;
+                margin-bottom: 20px;
+            }
+        } 
     }
 }
 
 
 .my-work__wrapper {
-    background-color: $main-bg-blue !important;
-    padding-top: 200px;
-    .row { 
-        background-color: $main-bg-blue;
-        padding: 20px 0;
-     }
-    .my-work__body { padding: $row-padding;}
+    background-color: #ddddff !important;
+    .my-work__body { 
+        padding: $row-padding;
+        background: #fdfdfd none repeat scroll 0% 0%;
+        box-shadow: rgba(12, 52, 75, 0.05) 0px 3px 3px;
+        border-radius: 8px;
+        opacity: 1;
+        border: #E6ECF8;
+    }
     .header { padding: $header-padding-top-bottom; }
 
     .video__wrapper {
@@ -110,8 +166,14 @@ body {
 
 .contact__wrapper {
     height: 500px;
-    background-color: #445e93;
+    background-color: #acacff;
     .header { padding: $header-padding-top; }
+    p { 
+        color: white; 
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
     .contact__buttons {
         display: flex;
         justify-content: center;
