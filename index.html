@@ -1,155 +1,162 @@
-
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="main.css">
-    <title>Matt Fasano</title>
-    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Francois+One|Hammersmith+One|Oxygen|Palanquin+Dark" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
-    <script src="https://use.fontawesome.com/2a31d5a3fd.js"></script>
-    <link rel="icon" type="image/x-icon" href="images/box-144-183014.png">
 
-  </head>
-  <body>
-    <!-- First div name -->
-    <div class="block1-container">
-      <div class="name-container">
-        <div class="name-flex">
-          <p id="animate-area" class="my-first-name">Matt</p>
-          <p class="my-last-name">Fasano</p>
-        </div>
-        <div class="title-flex">
-          <p class="text-web">Web</p>
-          <p class="text-developer">Developer</p>
-        </div>
-      </div>
-    </div>
-    <!-- About me div with description of myself -->
-    <div class="about-me">
-      <p id="section-titles" class="about-me-header" >About Me</p>
-      <div class="about-text-container">
-        <p>I am a web developer with a background in music.</p>
-        <br>
-        <p> Being a creative and a performer, I've always had a passion for entertaining and improving the lives of others. I hope to be working in lifestlyle and entertainment as a creative coder.</p>
-        <br>
-        <br>
-        <p>Browse my projects below!</p>
-      </div>
-    </div>
-    <!-- ============== MY WORKS BLOCK ================= -->
-    <div class="my-works-div">
-      <div class="">
-        <p id="section-titles">My Works</p>
-      </div>
-      <!-- "ENSEBMLE"  FLEX CONTAINER -->
-      <div class="parent-ensemble-flex" >
-        <!-- ENSEMBLE VIDEO -->
-        <video controls="controls" onclick="this.play()" id="ensemble-vid" src="videos/ensemble_screen_recording.mov">
-        </video>
-        <!-- ENSEMBLE DESCRIPTION-->
-        <div class="sizing-container">
-          <div class="title-container">
-            <h1 id="title" >Ensemble</h1>
-            <p id="title-paragraph"> Built with: JS, HTML, CSS, Rails, Kandy API </p>
-          </div>
-          <p style="width: 60%;">An application for users to login, and interact with other musicians via live audio and video streaming
-          <br>
-          <br>
-          <p>Demo Logins:</p>
-          <br>
-          <p>User1: Matt</p>
-          <p>User2: Mark</p>
-          <br>
-          <p> Demo passwords:</p>
-          <br>
-          <p>User1: cheese123</p>
-          <p>User2: cheese12345</p>
-          <br>
-          <br>
-          <br>
-          <div class="link-container">
-            <a id="links-to-website" target="_blank" href="https://ensemblemusic.herokuapp.com/">Visit Website</a>
-          </div>
-        </div>
-      </div>
-      <div class="uncommon-parent-container">
-        <div class="parent-description">
-          <div class="title-container">
-            <h1 id="title">Uncommon Goods</h1>
-            <p>Built with: HTML(5), CSS(3)</p>
-          </div>
-            <p style="width: 60%">Responsive demo site designed after Uncommon Goods webpage. </p>
-            <br>
-            <br>
-            <div class="link-container">
-              <a id="links-to-website" target="_blank" href="https://chakafasano88.github.io/bounceX.github.io/">Visit Website</a>
-            </div>
-        </div>
-          <div class="image-container">
-            <a href="https://chakafasano88.github.io/bounceX.github.io/"><img id="uncommon-image" src="https://photos-4.dropbox.com/t/2/AADtLgg-LCs4P6hFFLkvzcQKfJrfNmk_YouerR7TlTfHJw/12/60117909/png/32x32/1/_/1/2/uncommongoods.png/EMDcwy4Y8G8gBygH/gKORR6s7Qrrn24DaFWK-LqAry4Lu1oDgApTBNYGT3Bw?size=2048x1536&size_mode=3" alt=""></a>
-          </div>
-      </div>
-      <!-- "URBAN SNOOZE" FLEX CONTAINER -->
-      <div class="parent-urban-snooze-container">
-        <!-- "URBAN SNOOZE" VIDEO-->
-        <video height="auto" controls="controls" onclick="this.play()" id="urban-snooze-vid" src="videos/urban_snooze_screen_recording.mov" >
-        </video>
-        <!-- CONTAINER FOR DECSRIPTION TEXT -->
-        <div class="urban-snooze-description-container " >
-          <div class="title-container">
-            <h1 id="title" >Urban Snooze</h1>
-            <p> Built with: JS, HTML(5), CSS(3), Ruby, Rails, Google API </p>
-          </div>
-          <!-- "URBAN SNOOZE" DESCRIPTION -->
-            <p>An application for users to login and create a naptime appointment.</p>
-            <br>
-            <br>
-            <p>Demo Login:</p>
-            <br>
-            <p>username: test@gmail.com</p>
-            <p>password: testing123</p>
-            <br>
-            <br>
-            <br>
-            <br>
-            <a id="links-to-website" target="_blank" href="https://fast-atoll-86925.herokuapp.com/">Visit Website</a>
-        </div>
-      </div>
-    </div>
+<head>
+  <meta charset="utf-8">
+  <title>Matt Fasano</title>
+  <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Francois+One|Hammersmith+One|Oxygen|Palanquin+Dark" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+  <script src="https://use.fontawesome.com/2a31d5a3fd.js"></script>
+  <link rel="icon" type="image/x-icon" href="images/box-144-183014.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
 
-    <!-- CONTACT ME BLOCK -->
-    <div class="border contact-div">
-      <p id="section-titles">Contact Me</p>
-      <br>
-      <p class="email" >matt.fasano88@gmail.com</p>
-      <br>
-      <div class="contact-text">
-        <p>Shoot me an email, contact me on linkedin, view my github, or browse my musician webpage.</p>
-        <br>
-        <p>I look forward to collaborating with you!</p>
-      </div>
-      <div class="actions-container">
-        <div class="action-flex">
-          <div class="icon-container">
-            <div class="buttons">
-              <a href="https://github.com/chakafasano88?tab=repositories" id="back"><i class="fa fa-github" aria-hidden="true"></i></a>
-            </div>
-            <div class="buttons">
-              <a href="https://www.linkedin.com/in/matt-fasano/" id="play"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-            </div>
-            <div class="buttons">
-              <a href="http://www.thechaka.com/" id="pause"><i class="fa fa-music" aria-hidden="true"></i></a>
-            </div>
+</head>
+
+<body>
+  <div class- "row">
+    <div class="col-sm-12">
+
+      <div class="row main">
+        <div class="title col-sm-12">
+          <div class="text-center">
+            <h1>Matt Fasano</h1>
+            <h3>Fullstack Developer</h3>
           </div>
         </div>
       </div>
 
-      <div class="resume-container" >
-        <a id="link-to-resume" target="_blank" href="files/resume.pdf">View my resume</a>
+      <div class="row about__wrapper">
+        <div class="col-sm-12 text-center">
+          <div class="about__body">
+            <h1>About</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          </div>
+        </div>
+
+        <div class="row skills">
+          <div class="col-sm-4">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                  nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                  sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          </div>
+          <div class="col-sm-4">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                  nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                  sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          </div>
+          <div class="col-sm-4">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                  nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                  sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          </div>
+        </div>
       </div>
 
+
+      <div class="row my-work__wrapper">
+        <div class="col-sm-12 text-center">
+          <div class="header">
+            <h1>My Work</h1>
+          </div>
+          <div class="my-work__body">
+
+            <div class="row row--padding">
+              <div class="description col-sm-6">
+                <h3>FocusLoop</h3>
+                <h4>Role: Creator</h4>
+                <p>Frontend: React, React Apollo, Nextjs, Sass
+                  <a class="btn btn-sm btn-info" target="_blank" href="https://github.com/chakafasano88/compounding-frontend">
+                    <i class="fa fa-github" target="_blank"></i> View</a>
+                </p>
+                <p>Backend: GraphQL, Nodejs, Prisma Database
+                  <a class="btn btn-sm btn-info" target="_blank" href="https://github.com/chakafasano88/compounding-api">
+                    <i class="fa fa-github" target="_blank"></i> View</a>
+                </p>
+                <br>
+                <p>Glorified blog where admin users can post articles, create users with an email invitaion, and regular users can comment and like posts.</p>
+
+                <a class="btn mt-4 mb-4 website-btn" target="_blank" href="https://compounding-react-prod.herokuapp.com">Go To Website</a>
+              </div>
+              <div class="col-sm-6 video__wrapper">
+                <video controls="controls" onclick="this.play()" id="ensemble-vid" src="videos/focusloop_screen_rec.mov"></video>
+              </div>
+            </div>
+
+            <div class="row row--padding">
+              <div class="description col-sm-6">
+                <h3>Agrellus Grower</h3>
+                <h4>Role: Frontend Mobile Developer</h4>
+                <p>Frontend: React Native, NativeBase, Redux</p>
+                <p>Backend: Third Party Client API</p>
+                <br>
+                <p>Mobile marketplace for farmers to make requests for an array of materials, equipment, and services, make payments, manage orders and quote statuses, and directly message vendors.</p>
+
+                <p class="mt-4">Available on IOS and Android stores as
+                  <span style="font-weight: bold;">'agrellus-grower'</span>
+                </p>
+              </div>
+              <div class="col-sm-6 video__wrapper">
+                <video controls="controls" onclick="this.play()" id="ensemble-vid" src="videos/agrellus_screen_rec.mp4"></video>
+              </div>
+            </div>
+
+            <div class="row row--padding">
+              <div class="description col-sm-6">
+                <h3>Music Producer Website</h3>
+                <h4>Role: Creator</h4>
+                <p>Built with: React, Sass</p>
+                <br>
+                <p>Glorified blog where admin users can post articles, create users with an email invitaion, and regular users can comment and like posts.</p>
+
+                <a class="btn mt-4 mb-4 website-btn" target="_blank" href="https://kurtleon.com">Go To Website</a>
+              </div>
+              <div class="col-sm-6 video__wrapper">
+                <video controls="controls" onclick="this.play()" id="ensemble-vid" src="videos/ensemble_screen_recording.mov"></video>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="row contact__wrapper">
+        <div class="text-center col-sm-12">
+          <div class="header">
+            <h1>Contact</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            </p>
+          </div>
+          <div class="contact__buttons">
+            <a href="https://github.com/chakafasano88?tab=repositories" target="_blank" id="back">
+              <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/matt-fasano/" target="_blank" id="play">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="http://www.thechaka.com/" target="_blank" id="pause">
+              <i class="fa fa-play-circle" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
-  </body>
+  </div>
+  <!-- <div class="resume-container">
+    <a id="link-to-resume" target="_blank" href="files/resume.pdf">View my resume</a>
+  </div> -->
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+</body>
+
 </html>

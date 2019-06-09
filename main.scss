@@ -1,0 +1,153 @@
+// variables
+$row-padding: 50px;
+$header-padding-top-bottom: 50px 0;
+$header-padding-top: 50px 0 0 0;
+$main-bg-blue: #98c1d9;
+$text-decoration-coral: #f58549;
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+
+}
+
+.main {
+    background: linear-gradient(to bottom left, white 50%, lightblue 50%); 
+}
+
+.title {
+    height: 64vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        font-size: 80px;
+        text-decoration: underline;
+        text-decoration-color: $text-decoration-coral;
+    }
+
+    h3 {
+        font-size: 60px;
+        text-decoration: underline;
+        text-decoration-color: $text-decoration-coral;
+    }
+
+    hr {
+        background-color: #dcdcf5 !important;
+    }
+}
+
+.about__wrapper {
+    background-color: #e0fbfc !important; 
+    .about__body { 
+        padding: $row-padding; 
+        h1 { padding-bottom: 30px; } 
+    }
+   
+    p {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .skills {
+        position: relative;
+        border: 1px solid red;
+        margin: 0 auto;
+        width: 100%;
+        top: 15%;
+        max-width: 1200px;
+    }
+}
+
+
+.my-work__wrapper {
+    background-color: $main-bg-blue !important;
+    padding-top: 200px;
+    .row { 
+        background-color: $main-bg-blue;
+        padding: 20px 0;
+     }
+    .my-work__body { padding: $row-padding;}
+    .header { padding: $header-padding-top-bottom; }
+
+    .video__wrapper {
+        text-align: right;
+        video {
+            width: 100%;
+            padding: 1px;
+            background-color: #fffbfe;
+            border: 1px solid #fffbfe;
+            border-radius: 2px;
+        }
+    }
+
+    .description {
+        text-align: left;
+        h3 {
+            font-size: 40px;
+        }
+        
+        p { 
+            width: 75%;
+            margin: 5px; 
+        }
+    }
+
+    .website-btn {
+        background-color: transparent;
+        border-radius: 5px;
+        background-color: #e0fbfc;
+        text-align: center;
+        transition: .5s ease all;
+        color: black;
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
+
+.contact__wrapper {
+    height: 500px;
+    background-color: #445e93;
+    .header { padding: $header-padding-top; }
+    .contact__buttons {
+        display: flex;
+        justify-content: center;
+        a {
+            text-decoration: none;
+            color: black;
+            margin: 0 10px;
+            font-size: 1.7rem;
+            background-color: transparent;
+            color: #fff;
+            border-radius: 100%;
+            height: 44px;
+            width: 44px;
+            border: 2px solid rgba(255,255,255,0.3);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            i {
+                color: white;
+                font-size: 1.7rem;
+            }
+
+            .fa-linkedin {
+                font-size: 1.3rem;
+            }
+        }
+
+        a:hover {    
+            background-color: white;
+            color: #445e93;
+                i {
+                    color: #445e93;
+            }
+        }
+    }
+}
+
+

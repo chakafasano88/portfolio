@@ -1,323 +1,111 @@
-
 body {
-  margin: 0px;
-  color: #444444;
-}
+  margin: 0;
+  padding: 0;
+  font-family: Arial; }
 
-* {
-  margin: 0px;
-  padding: 0px;
-}
+.main {
+  background: linear-gradient(to bottom left, white 50%, lightblue 50%); }
 
-/* Aligns text in containers */
-.border {
-  width: 100%;
-  text-align: center;
-}
-
-/* BLOCK #1*/
-.block1-container {
+.title {
+  height: 64vh;
   display: flex;
   justify-content: center;
-  border-bottom: 1px solid grey;
+  align-items: center; }
+  .title h1 {
+    font-size: 80px;
+    text-decoration: underline;
+    text-decoration-color: #f58549; }
+  .title h3 {
+    font-size: 60px;
+    text-decoration: underline;
+    text-decoration-color: #f58549; }
+  .title hr {
+    background-color: #dcdcf5 !important; }
 
-}
+.about__wrapper {
+  background-color: #e0fbfc !important; }
+  .about__wrapper .about__body {
+    padding: 50px; }
+    .about__wrapper .about__body h1 {
+      padding-bottom: 30px; }
+  .about__wrapper p {
+    width: 75%;
+    margin: 0 auto; }
+  .about__wrapper .skills {
+    position: relative;
+    border: 1px solid red;
+    margin: 0 auto;
+    width: 100%;
+    top: 15%;
+    max-width: 1200px; }
 
+.my-work__wrapper {
+  background-color: #98c1d9 !important;
+  padding-top: 200px; }
+  .my-work__wrapper .row {
+    background-color: #98c1d9;
+    padding: 20px 0; }
+  .my-work__wrapper .my-work__body {
+    padding: 50px; }
+  .my-work__wrapper .header {
+    padding: 50px 0; }
+  .my-work__wrapper .video__wrapper {
+    text-align: right; }
+    .my-work__wrapper .video__wrapper video {
+      width: 100%;
+      padding: 1px;
+      background-color: #fffbfe;
+      border: 1px solid #fffbfe;
+      border-radius: 2px; }
+  .my-work__wrapper .description {
+    text-align: left; }
+    .my-work__wrapper .description h3 {
+      font-size: 40px; }
+    .my-work__wrapper .description p {
+      width: 75%;
+      margin: 5px; }
+  .my-work__wrapper .website-btn {
+    background-color: transparent;
+    border-radius: 5px;
+    background-color: #e0fbfc;
+    text-align: center;
+    transition: .5s ease all;
+    color: black; }
+    .my-work__wrapper .website-btn:hover {
+      transform: scale(1.1); }
 
-/* Container with name and title */
-.name-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  height: 650px;
-  background-col or: #FFFF;
-}
+.contact__wrapper {
+  height: 500px;
+  background-color: #445e93; }
+  .contact__wrapper .header {
+    padding: 50px 0 0 0; }
+  .contact__wrapper .contact__buttons {
+    display: flex;
+    justify-content: center; }
+    .contact__wrapper .contact__buttons a {
+      text-decoration: none;
+      color: black;
+      margin: 0 10px;
+      font-size: 1.7rem;
+      background-color: transparent;
+      color: #fff;
+      border-radius: 100%;
+      height: 44px;
+      width: 44px;
+      border: 2px solid rgba(255, 255, 255, 0.3);
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .contact__wrapper .contact__buttons a i {
+        color: white;
+        font-size: 1.7rem; }
+      .contact__wrapper .contact__buttons a .fa-linkedin {
+        font-size: 1.3rem; }
+    .contact__wrapper .contact__buttons a:hover {
+      background-color: white;
+      color: #445e93; }
+      .contact__wrapper .contact__buttons a:hover i {
+        color: #445e93; }
 
-/* Flex box for name */
-
-.name-flex {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 30px;
-}
-
-.my-first-name {
-  font-family: 'Questrial';
-  font-size: 7em;
-  text-decoration: underline;
-  text-decoration-color: #FF8360;
-  margin-right: 10px;
-}
-
-.my-last-name {
-  font-family: 'Questrial';
-  font-size: 7em;
-  text-decoration: underline;
-  text-decoration-color: #FF8360;
-}
-
-.title-flex {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-
-}
-
- /* The word "Web" */
-.text-web {
-  font-family: 'Questrial';
-  font-size: 5.5em;
-  text-decoration: underline;
-  text-decoration-color: #FF8360;
-  text-underline-position: under;
-  margin-right: 10px;
-
-}
-/* The word "Developer" */
-.text-developer {
-  font-family: 'Questrial';
-  font-size: 5.5em;
-  text-decoration: underline;
-  text-decoration-color: #FF8360;
-  text-underline-position: under;
-}
-
-/* BLOCK #2 */
-/* "About Me" container */
-.about-me {
-  width: 100%;
-  height: 330px;
-  word-wrap: break-word;
-  text-align: center;
-  background-color: #f5e9dc;
-  padding-top: 20px;
-  border-bottom: 1px solid grey;
-  font-family: 'Questrial';
-  font-size: 20px;
-}
-
- /* "About Me" text header */
-.about-me-header {
-  font-size: 3.4em;
-  margin-bottom: 60px;
-
-}
-
-.about-text-container {
-  text-align: center;
-  height: 300px;
-  width: 55%;
-  margin-left: 22.5%;
-  margin-right: 22.5%;
-  margin-top: 2%;
-
-}
-
-/* "MY WORKS" BLOCK #3 */
-.my-works-div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  height: 60%;
-  padding: 20px;
-  background-color: #dcdcf5;
-  border-bottom: 1px solid grey;
-  font-family: 'Questrial';
-}
-
-.parent-ensemble-flex {
-  display: flex;
-  justify-content: center;
-  flex-direction: row-reverse;
-  align-items: center;
-  width: 90%;
-}
-
-.sizing-container {
-  width: 56%;
-  padding: 25px;
-}
-
-.title-container {
-  margin-bottom: 30px;
-  font-size: 1.2em;
-}
-
-#title {
-  margin-bottom: 10px
-}
-
-#tite-paragraph {
-  font-size: 4em;
-
-}
-
-.parent-urban-snooze-container {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: row-reverse;
-  justify-content: center;
-  border-top: 1px solid grey;
-  width: 90%;
-  margin-bottom: 30px;
-  padding: 50px;
-}
-
-.urban-snooze-description-container {
-  width: 54%;
-  height: 330px;
-}
-
-/* Ensemble video */
-#ensemble-vid {
-  width: 35%;
-  height: 380px;
-  position: relative;
-  bottom: 25px;
-  right: 40px;
-}
-
-/* Urban Snooze video */
-#urban-snooze-vid {
-  width: 35%;
-  height: 380px;
-}
-
-.uncommon-parent-container {
-  width: 90%;
-  display: flex;
-  justify-content: flex-start;
-  border-top: 1px solid grey;
-  padding: 50px;
-}
-
-.parent-description {
-  width: 70%;
-  padding-left: 65px;
-}
-
-#uncommon-image {
-  width: 87%;
-}
-
-.image-container {
-  width: 52%;
-}
-
-/*  "CONTACT ME" BLOCK #4 */
-.contact-div{
-  height: 400px;
-  background-color: #f5dcdc;
-  padding-top: 20px;
-  border-top: 1px solid grey;
-  display: flex;
-  flex-direction: column;
-
-}
-
-.contact-text {
-  font-family: 'Questrial';
-  font-size: 20px;
-}
-
-/* Styling for all div titles */
-#section-titles {
-  font-family: 'Hammersmith One', monospace;
-  margin: 0px;
-  font-size: 3.4em;
-  color: #444444;
-}
-
-.icon-container {
-  color: grey;
-  font-size: 1.2em;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  position: relative;
-  padding: 20px 20px 20px 20px;
-}
-
-.buttons {
-  background-color: #cd5252;
-  border: grey;
-  border-radius: 25px;
-  padding: 10px 10px 10px 10px;
-  height: 20px;
-  width: 20px;
-  margin-left: 5px;
-  text-align: center;
-}
-
-i {
-  background-color: inherit;
-  color: #444444;
-}
-
-.fa {
-  color: #f5dcdc;
-}
-
-/* my email */
-.email {
-  font-family: 'Questrial';
-  font-size: 1.7em;
-}
-
-.link-container {
-  width: 40%;
-  padding: 20px 0px;
-  margin-bottom: 30px;
-}
-
-#links-to-website {
-  font-family: 'Questrial';
-  border: 2px solid #7979d9;
-  padding: 10px 25px;
-  border-radius: 30px;
-  font-weight: bold;
-  font-size: 1em;
-  text-decoration: none;
-  margin-top: 50px;
-}
-
-
-
-.resume-container {
-  margin: 20px;
-  display: flex;
-  justify-content: center;
-}
-
-#link-to-resume {
-  font-family: 'Questrial';
-  border: 2px solid #d97878;
-  padding: 10px 30px;
-  border-radius: 30px;
-  font-weight: bold;
-  font-size: 1em;
-  text-decoration: none;
-}
-
-a {
-  color: #444444;
-}
-
-a#links-to-website:hover {
-  background-color: rgba(251,251,240, .7);
-  color: #7979d9;
-}
-
-a#link-to-resume:hover {
-  color: #ce5050;
-  background-color: rgba(251,251,240, .7);
-}
-
-
-@media screen and (max-width: 776px) {
-  * {
-    display: block;
-  }
-}
+/*# sourceMappingURL=main.css.map */
