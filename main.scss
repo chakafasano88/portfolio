@@ -4,7 +4,7 @@
 }
 
 // variables
-$row-padding: 50px;
+$row-padding: 60px;
 $header-padding-top-bottom: 50px 0;
 $header-padding-top: 50px 0 0 0;
 $main-bg-blue: #acacff;
@@ -14,7 +14,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Product Sans', Arial;
-    background-color: #ddddff
+    background-color: #ddddff;
 }
 
 .title {
@@ -42,7 +42,7 @@ body {
 }
 
 .about__wrapper {
-    background-color: #acacff
+    background-color: #8585f8
     !important; 
     height: 50vh;
     .about__body { 
@@ -53,8 +53,9 @@ body {
         } 
           
         p {
-            width: 75%;
+            width: 60%;
             margin: 30px auto 0 auto;
+            font-size: 18px;
             color: white;
         }
     }
@@ -65,7 +66,7 @@ body {
     margin: 0 auto;
     width: 100%;
     top: -100px;
-    max-width: 1100px;
+    max-width: 1000px;
     background: #fdfdfd none repeat scroll 0% 0%;
     box-shadow: rgba(12, 52, 75, 0.05) 0px 3px 3px;
     border-radius: 8px;
@@ -84,14 +85,16 @@ body {
         border-radius: 50%;
 
         i {
-            color: rgb(154, 93, 252);
+            color: #9A5DFC
         }
     }
 
     .skills__column {
-        border-right: 1px solid #E6ECF8;
-        padding: 0 60px;
+        padding: 40px 60px;
+    }
 
+    .border-right {
+        border-right: 1px solid #E6ECF8;
     }
 
     .skill__description {
@@ -100,6 +103,14 @@ body {
         label {
             font-weight: bold; 
             font-size: 1.1em;
+        }
+    }
+
+    .language-list {
+        margin-top: 50px;
+
+        label {
+            font-size: 18px;
         }
     }
 
@@ -117,7 +128,7 @@ body {
 
 
 .my-work__wrapper {
-    background-color: #ddddff !important;
+    background-color: #ddddff !important;  
     .my-work__body { 
         padding: $row-padding;
         background: #fdfdfd none repeat scroll 0% 0%;
@@ -141,32 +152,53 @@ body {
 
     .description {
         text-align: left;
+
+        .github-links {
+            color: #9A5DFC;
+            transition: .5s ease all;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+
         h3 {
             font-size: 40px;
+            color: #9A5DFC;
+        }
+
+        h4 {
+            opacity: .7;
         }
         
         p { 
             width: 75%;
             margin: 5px; 
+            opacity: .7;
         }
     }
 
     .website-btn {
         background-color: transparent;
         border-radius: 5px;
-        background-color: #e0fbfc;
+        border: 1px solid #8585f8;
         text-align: center;
         transition: .5s ease all;
         color: black;
         &:hover {
             transform: scale(1.1);
+            color: white;
+            background-color: #8585f8;
         }
     }
 }
 
 .contact__wrapper {
     height: 500px;
-    background-color: #acacff;
+    background-color: #8585f8;
+    margin-top: 50px;
+    h1 {
+        color: white;
+    }
     .header { padding: $header-padding-top; }
     p { 
         color: white; 
@@ -174,6 +206,11 @@ body {
         margin-left: 20%;
         margin-right: 20%;
     }
+
+    .contact-description {
+        margin: 70px;
+    }
+
     .contact__buttons {
         display: flex;
         justify-content: center;
@@ -204,9 +241,9 @@ body {
 
         a:hover {    
             background-color: white;
-            color: #445e93;
+            color: #8585f8;
                 i {
-                    color: #445e93;
+                    color: #8585f8;
             }
         }
     }
