@@ -208,7 +208,20 @@ body {
     }
 
     .contact-description {
-        margin: 70px;
+        margin: 70px 0 35px 0;
+        input {
+            background-color: #8585f8;
+            border: none; 
+            color: white;
+            text-align: center;
+            font-size: 20px;
+            transition: .5s ease all;
+
+            &:hover {
+                cursor: pointer;
+                transform: scale(1.1);
+            }
+        }
     }
 
     .contact__buttons {
